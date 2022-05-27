@@ -1,0 +1,29 @@
+{
+  "name": "@jshear/cardano-dapp-utils",
+  "version": "0.0.1",
+  "description": "A collection of utilities for frontend dApp development on the Cardano blockchain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshear/cardano-dapp-utils.git"
+  },
+  "keywords": [
+    "cardano",
+    "web3",
+    "dapp"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@jshear/cardano-utils": "file:../cardano-utils",
+    "lucid-cardano": "^0.2.6"
+  },
+  "author": "jshear",
+  "bugs": {
+    "url": "https://github.com/jshear/cardano-dapp-utils/issues"
+  },
+  "homepage": "https://github.com/jshear/cardano-dapp-utils#readme",
+  "scripts": {
+    "test": "echo \"No Tests Available\""
+  },
+  "license": "GPL-3.0-or-later",
+  "type": "module"
+}
