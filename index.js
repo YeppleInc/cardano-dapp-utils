@@ -1,7 +1,7 @@
 import CardanoUtils from '@jshear/cardano-utils';
 import * as Lucid from 'lucid-cardano';
-import WalletConnection from './modules/connection';
-import WalletSigning from './modules/signing';
+import WalletConnection from './modules/connection.js';
+import WalletSigning from './modules/signing.js';
 
 const defaultLogger = {
     info: console.log,

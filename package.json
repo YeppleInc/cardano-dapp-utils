@@ -1,10 +1,10 @@
 {
-  "name": "@jshear/cardano-dapp-utils",
-  "version": "0.0.1",
+  "name": "@mintcity/cardano-dapp-utils",
+  "version": "0.1.0",
   "description": "A collection of utilities for frontend dApp development on the Cardano blockchain",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshear/cardano-dapp-utils.git"
+    "url": "git+https://github.com/Mint-City/cardano-dapp-utils.git"
   },
   "keywords": [
     "cardano",
@@ -13,14 +13,14 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@jshear/cardano-utils": "file:../cardano-utils",
+    "@mintcity/cardano-utils": "^1.0.0",
     "lucid-cardano": "^0.2.6"
   },
   "author": "jshear",
   "bugs": {
-    "url": "https://github.com/jshear/cardano-dapp-utils/issues"
+    "url": "https://github.com/Mint-City/cardano-dapp-utils/issues"
   },
-  "homepage": "https://github.com/jshear/cardano-dapp-utils#readme",
+  "homepage": "https://github.com/Mint-City/cardano-dapp-utils#readme",
   "scripts": {
     "test": "echo \"No Tests Available\""
   },
